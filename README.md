@@ -23,5 +23,21 @@ Sample usage:
 
 ```String.sample_colors``` prints out available colors with their method names
 
+# Code Example:
+
+```ruby
+require 'colorizr'
+
+# prints severals texts examples colorized with all the colors available
+String.sample_colors
+
+# prints the colors that we have available
+puts String.colors
+
+# Sample method call
+puts "Welcome To My World".red
+```
+
+
 # License
 Colorizr is released under the [MIT License](http://opensource.org/licenses/MIT).
